@@ -18,8 +18,8 @@ return new class extends Migration
             $table->id();
 
             $table -> string('azienda');
-            $table -> string('stazione_di_partenza', 5);
-            $table -> string('stazione_di_arrivo', 5);
+            $table -> string('stazione_di_partenza');
+            $table -> string('stazione_di_arrivo');
             $table -> string('orario_di_partenza');
             $table -> string('orario_di_arrivo');
             $table -> integer('codice_treno');
