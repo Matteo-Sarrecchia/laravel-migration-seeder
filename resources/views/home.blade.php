@@ -12,7 +12,7 @@
         <ol>
             @foreach ($trains as $train)
             <div class="border border-black rounded mb-3">
-                <div class="border mb-3 bg-primary p-2 text-light text-center">
+                <div class="border rounded mb-3 bg-primary p-2 text-light text-center">
                     {{ $train -> azienda }}
                 </div>
                 <div class="mx-5">
