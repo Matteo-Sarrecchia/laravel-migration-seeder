@@ -14,7 +14,7 @@
 
     @include("components.header")
 
-    <div class="container-fluid text-center">
+    <div class="container-fluid">
         @yield("content")
     </div>
 
